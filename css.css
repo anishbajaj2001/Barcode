@@ -1,0 +1,62 @@
+.haha {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.barcode p {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-family: Helvetica;
+}
+
+.centering {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+}
+
+input[type=text] {
+    height: 10%;
+    width: 100%;
+    font-size: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    text-align: center;
+}
+
+input[type=submit] {
+    height: 5%;
+    width: 50%;
+    border: 1px solid #ddd;
+    margin-top: 1%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    text-align: center;
+    background-color: #fff;
+}
+
+::placeholder {
+    color: #eee;
+    font-family: Helvetica Neue;
+}
+
+button:hover {
+    border: 1px solid #aaa;
+    color: #aaa;
+}
+}

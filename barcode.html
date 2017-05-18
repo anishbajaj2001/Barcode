@@ -1,0 +1,50 @@
+<html lang="en">
+
+  <head>
+
+    <title>Siemens &middot Barcode</title>
+
+    <meta name="author" content="Siemens">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript" src="keypress_nav.js"></script>
+    <link rel="icon" type="image/png" href="icon.png">
+
+  </head>
+  <body class = "haha">
+  	<center>
+  		<div class = "centering">
+	<form action="javascript:redirect();">
+    <input id="textBox" type="text" name="" placeholder="code" />
+    <input type="submit" value="Submit" onclick="myFunction()">
+	</form>
+</div>
+  	<script>
+
+	function myFunction() {
+    document.getElementById("textBox").select();
+	}
+	</script>
+	<script>
+
+	function redirect() {
+	var textValue = document.getElementById("textBox").value;
+	if(textValue == "88H-0000UB-0TV")
+    {
+        location.href = "scanner.html";
+    }
+    else if(textValue == "8901764082405")
+    {
+    	location.href = "bottle.html";
+    }
+    else if(textValue == "8902080205028")
+    {
+    	location.href = "can.html";
+    }
+    else
+    {
+    	alert("Invalid Input");
+    }
+}
+	</script>
